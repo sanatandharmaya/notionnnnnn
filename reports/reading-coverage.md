@@ -1,7 +1,19 @@
 # Reading coverage
 
-At the 2026-10-23 08:33 UTC checkpoint, **0 of 3 known root pages** had readable content. The total number of in-scope descendant pages and blocks is unknown, so no percentage of the full knowledge base can be stated.
+Checkpoint: 2026-10-23 UTC. All **5,478 text entries** in the three ZIPs and nested legacy ZIP were decoded as UTF-8 and processed line by line into the [file register](source-files.csv): **2,093,941 lines**, with no decoding errors. The one ZIP entry is inventoried as a container. This proves byte-level traversal and metadata coverage; it does **not** mean every assertion has been reconciled. The file register marks 14 core pages `reviewed_core`, 6 pages `partial`, 37 category feature registries `structured_indexed`, and 5,422 entries `pending`. A structured index records feature IDs/names and source lines; it does not certify the child requirements, acceptance cases, conflicts or release scope. The full live Notion scope remains unknown.
 
-All three supplied URLs failed with `Tunnel connection failed: 403 Forbidden` when requested directly from the cloud machine. No Notion connector is attached to this session. Titles and page IDs in the [source inventory](source-inventory.md) come from the user's links, not from page retrieval. No source content, nested pages, database results, attachments, or comments have been processed.
+The current reviewed set includes the project summary, architecture index, master category registry, C04–C06 split decision, D1 ownership decision, P07.17 stack, P07.18 releases, P07.19 R0 plan, and eternalmu ADR log. The Sanatan Platform master architecture has a partial review focused on stack and authorization conflicts. Current conclusions are provisional until detailed specs and legacy differences have been reconciled.
 
-Requirement disposition coverage is not measurable because the source requirements have not been extracted. No source-level decisions or conflicts can yet be counted. The three-app monorepo direction is confirmed by the user's project brief only.
+| Measure | Result |
+| --- | --- |
+| Supplied archive entries | 5,479 including one nested ZIP container |
+| Text entries with full line scan | 5,478 / 5,478 |
+| Lines scanned | 2,093,941 |
+| Core pages marked semantically reviewed | 14 / 5,478 text entries |
+| Category registries indexed by structure | 37 / 37 current C01–C37 registries; 758 source feature identifiers indexed, not fully reconciled |
+| Current category reference files mapped | 511 text entries across C01–C37; legacy source mapping pending |
+| Requested roots with matching exports | 3 / 3 after user confirmed Sanatan replaces the original root |
+| Requirement disposition coverage | Unknown: detailed extraction is incomplete |
+| Unresolved decisions | At least the issues in the [conflict register](conflict-register.md); full count pending |
+
+No live Notion comments, edit timestamps, unsupported attachments, or inaccessible descendants are claimed as reviewed.

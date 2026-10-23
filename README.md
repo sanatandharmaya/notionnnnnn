@@ -1,9 +1,21 @@
 # Eternal Sanskriti Notion
 
-This repository is the planned home for the Eternal Sanskriti project documentation and, later, a monorepo containing an admin panel, public website, and API. These three applications are confirmed by the project brief. Their features, technology, and domain model await review of the Notion knowledge base.
+This repository consolidates the Eternal Sanskriti knowledge base into a developer-facing Markdown plan for an **admin panel, public website and API** in one future monorepo. It currently contains documentation only; no application has been built, tested or deployed.
 
-## Documentation status
+The supplied sources describe a multilingual Sanatan Dharma knowledge, devotional and digital-services platform with separate system, website, content and shared-contract owners. The current architecture uses S01–S41, W01–W09, C01–C37 and X01–X25 identifiers. The user's target repository and `apps/website` naming supersede older source references. [Product](product.md) · [Architecture](architecture.md) · [Conflict register](reports/conflict-register.md)
 
-Source review is blocked: the three supplied Notion roots are unreachable from this environment, and no Notion connector is attached. No project requirements, architecture, or category structure have yet been derived from those pages. The initial source register and resume checkpoint are in [reports](reports/README.md).
+## Start here
 
-Once access is available, read all three roots and their relevant descendants, then build the canonical project documentation and audit reports. The project brief alone is insufficient to establish implementation readiness.
+| Concern | Documents |
+| --- | --- |
+| Assignment and durable context | [Goal](goal.md) · [Brain](brain.md) · [Agent instructions](AGENTS.md) |
+| Product and scope | [Product](product.md) · [Requirements](requirements.md) · [Features](features.md) · [Categories](docs/categories/README.md) |
+| Design and boundaries | [Architecture](architecture.md) · [Monorepo](monorepo.md) · [Data model](data-model.md) · [API contracts](api-contracts.md) · [Access control](access-control.md) · [Security](security.md) |
+| Delivery | [Phases](phases.md) · [Tasks](tasks.md) · [Testing](testing.md) · [Deployment](deployment.md) · [Development](development.md) |
+| Decisions and evidence | [Decisions](decisions.md) · [Open questions](open-questions.md) · [Reports](reports/README.md) |
+
+## Status and onboarding
+
+Three user-confirmed ZIP exports are available and every text entry was line-scanned, but detailed semantic review is incomplete. The [reading coverage](reports/reading-coverage.md) distinguishes that scan from reviewed core pages. Requirements and architecture here are **source-backed provisional consolidation**, not a complete replacement for all detailed source packs or an implementation-ready contract. The [progress checkpoint](reports/progress.md) states the next review steps.
+
+Developers should begin with the [goal](goal.md), [source key](reports/key-sources.md), [decisions](decisions.md) and [open questions](open-questions.md). Application installation/runtime tests do not apply until code exists; no commands are claimed verified in [development](development.md).

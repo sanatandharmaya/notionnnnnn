@@ -10,7 +10,7 @@ The supplied sources describe a multilingual Sanatan Dharma knowledge, devotiona
 | --- | --- |
 | Assignment and durable context | [Goal](goal.md) · [Brain](brain.md) · [Agent instructions](AGENTS.md) |
 | Product and scope | [Product](product.md) · [Requirements](requirements.md) · [Features](features.md) · [Categories](docs/categories/README.md) |
-| Design and boundaries | [Architecture](architecture.md) · [Monorepo](monorepo.md) · [Data model](data-model.md) · [API contracts](api-contracts.md) · [Access control](access-control.md) · [Security](security.md) |
+| Design and boundaries | [Architecture](architecture.md) · [Monorepo](monorepo.md) · [D2–D6 logical decisions](docs/architecture/logical-decisions-d2-d6.md) · [Data model](data-model.md) · [API contracts](api-contracts.md) · [Access control](access-control.md) · [Security](security.md) |
 | Delivery | [Phases](phases.md) · [Tasks](tasks.md) · [Testing](testing.md) · [Deployment](deployment.md) · [Development](development.md) |
 | Decisions and evidence | [Decisions](decisions.md) · [Open questions](open-questions.md) · [Reports](reports/README.md) |
 

@@ -13,5 +13,12 @@ Decision status applies to architecture documentation, not implementation eviden
 | DEC-007 | Use `sanatandharmaya/notionnnnnn` and `apps/website` in this documentation. | User instruction supersedes historical target; CON-001 | Do not bootstrap historical `sanskritieternal/shiv`. |
 | DEC-008 | Payload jobs, Cloudflare R2, Tailwind and GitHub Actions. | Preferred only; K06 lines 54–168 | Re-evaluate with implementation evidence/ADR. |
 | DEC-009 | Exact auth library, HTTP framework beyond Payload/Next, search engine, hosting, observability vendor. | Implementation-time open; K06 lines 67–168 | Select during coding with owner contracts. |
+| DEC-010 | D2 canonical identity, wire, concurrency, event and route rules. | Adopted logical reconciliation; K13 lines 3–65; physical binding and acceptance pending | Apply to future API and migration contracts; retain registered legacy adapters. |
+| DEC-011 | D3 separates payment, subscription, order, donation, ticket, template delivery, maintenance and status ownership. | Adopted logical reconciliation; K14 lines 3–65; provider evidence pending | No cross-owner state clone or payment-as-admission shortcut. |
+| DEC-012 | D4 private state, child/family, rights, erasure and restore rules. | Adopted logical reconciliation; K15 lines 3–65; policy/acceptance pending | Private projections and revocation replay require owner contracts. |
+| DEC-013 | D5 sourced domain truth, qualified review, current no-AI scope and versioned computation provenance. | Adopted logical reconciliation; K16 lines 3–65; corpus/runtime evidence pending | Keep cultural/source differences and computation outcomes explicitly scoped. |
+| DEC-014 | D6 separates architecture readiness from implementation, test, release and deployment evidence. | Adopted logical evidence standard; K17 lines 3–96; source tails pending | Never promote an authored acceptance case to PASS without executed evidence. |
 
 Earlier eternalmu ADR-014 and ADR-022 are marked proposed in K11; their subject matter should not be mislabelled as approved merely because related later plans exist. See [conflicts](reports/conflict-register.md).
+
+The [D2–D6 brief](docs/architecture/logical-decisions-d2-d6.md) gives the reviewed decision details and coverage boundary without reproducing all source prose.

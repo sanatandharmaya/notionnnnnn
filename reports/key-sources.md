@@ -16,5 +16,10 @@ Each `K` reference below points to an export entry in [source-files.csv](source-
 | K10 | SRC-F02756 / `3ef005f3ba7881559fdafdfe5f2a4232` | *Master Classification Registry*, lines 3–19, 25–407 | Classification inputs, deduplication, category boundaries. |
 | K11 | SRC-F00014 / `3ea005f3ba78819d8b1fca02a14422fa` | *eternalmu Decision Log*, lines 3–165 | Earlier accepted/proposed decisions; old C-code context. |
 | K12 | SRC-F00649 / `3d4005f3ba7881ebabfad2e3693863e1` | *Sanatan Dharma Platform — Master Platform Architecture*, lines 30–226, 550–668 | Earlier S01–S30/C01–C23 architecture; important stack, mobile and admin-bypass conflicts. Partial review only. |
+| K13 | SRC-F02811 / `3f0005f3ba7881e1a8b0fa6289bb34bf` | *D2 — Schema, API, Events & Route Reconciliation*, lines 1–110 | Adopted logical identity, contract, route and migration rules. Acceptance/source tail pending. |
+| K14 | SRC-F02812 / `3f0005f3ba7881f88351d33b9a8290ec` | *D3 — Payments, Subscriptions, Templates, Event Tickets & Maintenance/Status*, lines 1–137 | Adopted logical finance and coordinated state ownership. Acceptance/source tail pending. |
+| K15 | SRC-F02813 / `3f0005f3ba788117a7e6de3ca0724312` | *D4 — Private State, Rights & Retention*, lines 1–135 | Adopted logical privacy, reset, rights and restore rules. Acceptance/source tail pending. |
+| K16 | SRC-F02814 / `3f0005f3ba7881adbd80cb5e06b73dfa` | *D5 — Domain Sources & Computations*, lines 1–147 | Adopted provenance, no-AI and computation boundaries. Acceptance/source tail pending. |
+| K17 | SRC-F02815 / `3f0005f3ba7881cfaeefe06ef86c951c` | *D6 — Build & Validation Prerequisites*, lines 1–175 | Evidence status and future M05 resume gate, with historical repository context. Acceptance/source tail pending. |
 
 To recover an exact source location, locate the `SRC-F` row in the CSV and open the corresponding path inside the named ZIP. Export paths and line numbers are stable for these uploaded archives only.

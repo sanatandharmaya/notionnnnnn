@@ -15,3 +15,5 @@
 Stateful entities require initial state, allowed transitions, history, archival/withdrawal and retention treatment. Soft delete, tombstone, anonymization, erasure and purge are distinct; no single retention period is specified. [K04 §9; K05 D1]
 
 Physical keys, table names, relation cardinalities and migration order await review of the full P06/dictionary set and implementation. See [open questions](open-questions.md).
+
+D2–D5 refine the logical model: canonical references include owner/kind/opaque ID/revision; ambiguous legacy aliases are quarantined; money has amount, ISO currency and precision policy; business/provider/settlement states remain distinct; private sync carries a reset generation; computed results pin location, time-zone data, profile, engine/rule versions and provenance. These are logical records, not committed physical tables. [Decision brief](docs/architecture/logical-decisions-d2-d6.md) · [K13–K16](reports/key-sources.md).

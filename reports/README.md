@@ -1,6 +1,6 @@
 # Audit and source reports
 
-The [source inventory](source-inventory.md), [per-file register](source-files.csv), [current category file map](current-category-sources.csv), [key source references](key-sources.md) and [reading coverage](reading-coverage.md) define what was supplied, mapped and reviewed. The [progress checkpoint](progress.md) records next actions; the [validation checkpoint](validation.md) records executed documentation checks.
+The [source inventory](source-inventory.md), [per-file register](source-files.csv), [current category file map](current-category-sources.csv), [key source references](key-sources.md) and [reading coverage](reading-coverage.md) define what was supplied, mapped and reviewed. The [progress checkpoint](progress.md) records next actions; the [validation checkpoint](validation.md) records executed documentation checks. The [prepared draft PR](draft-pr.md) records the GitHub API publishing blocker.
 
 | Audit concern | Report |
 | --- | --- |

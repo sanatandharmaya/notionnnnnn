@@ -6,7 +6,7 @@
 
 **Head:** `docs/eternal-sanskriti-knowledge`
 
-**Status:** Not opened. `gh pr create --draft` returned `Post "https://api.github.com/graphql": Forbidden` on 2026-10-23 UTC; direct API access also returned a 403 tunnel error. Git push succeeded. A compare URL is available: https://github.com/sanatandharmaya/notionnnnnn/compare/main...docs/eternal-sanskriti-knowledge?expand=1
+**Historical status:** This prepared text predates [PR #1](https://github.com/sanatandharmaya/notionnnnnn/pull/1), which was subsequently merged into `main`. It is retained as a record of the earlier proposed draft. Continuing work is on `docs/eternal-sanskriti-reconciliation`; prepare a fresh draft PR from its actual diff. The historical `gh pr create --draft` attempt returned `Post "https://api.github.com/graphql": Forbidden` on 2026-10-23 UTC.
 
 ## Scope
 
@@ -14,7 +14,7 @@ Creates the requested documentation baseline for the admin panel, public website
 
 ## Coverage and validation
 
-All 5,478 exported text entries were decoded and scanned line by line (2,093,941 lines). This is not complete semantic review: 14 core pages have a first detailed reading, 11 are partial, 37 category registries are structurally indexed, and 5,417 entries remain pending. See [reading coverage](reading-coverage.md) and [progress](progress.md). All 19 root documents, 37 category notes and 37 category audit maps exist. Local Markdown targets, planning ID references and staged whitespace checks passed; application tests do not apply.
+All 5,478 exported text entries were decoded and scanned line by line (2,093,941 lines). This was not complete semantic review. Current counts are in [reading coverage](reading-coverage.md) and [progress](progress.md). All 19 root documents, 37 category notes and 37 category audit maps existed at this stage. Local Markdown targets, planning ID references and staged whitespace checks passed; application tests did not apply.
 
 ## Decisions and blockers
 

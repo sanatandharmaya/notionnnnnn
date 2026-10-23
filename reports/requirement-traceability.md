@@ -20,5 +20,6 @@ This is the current **core-source** mapping; child-spec completeness is not yet 
 | K04/K06/K13 → REQ-014 | FEAT-008 | DEC-001/010 | PH-01/07 | TASK-001/010 |
 | K04/K08/K17 → REQ-015 | FEAT-001/008 | DEC-006/014 | PH-01/07 | TASK-002/010 |
 | K04/K11/K16 → REQ-016 | FEAT-002/004 | DEC-005/013 | PH-02/03 | TASK-005/006 |
+| K18/K19/K20 → REQ-017 | FEAT-008 | DEC-015 | PH-01 | TASK-001 |
 
 The reverse lookup starts with a `SRC-F` path in [source-files.csv](source-files.csv), resolves to the key page, then follows this table. A complete reverse map for every child specification is pending semantic review.

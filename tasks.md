@@ -4,7 +4,7 @@ Every task below is **not started**. Documentation is planning evidence only. ID
 
 | ID | Outcome / affected area | Phase; IDs; dependency | Acceptance and verification | Blockers |
 | --- | --- | --- | --- | --- |
-| TASK-001 | Reconcile D2/P06 and module dictionaries into a versioned operation and data contract inventory; docs/API. | PH-01; REQ-002/014, FEAT-008; none | Each operation has owner, schema, access, error, revision/idempotency rule and source ID; review matrix. | Detailed source review |
+| TASK-001 | Reconcile D2/P06 and module dictionaries into a versioned operation and data contract inventory; docs/API. | PH-01; REQ-002/014/017, FEAT-008; none | Each operation has owner, schema, access, error, revision/idempotency rule and source ID; fields, enums, relationships and lifecycle meet P06 logical completeness; review matrix. | Detailed source review |
 | TASK-002 | Bootstrap three app boundaries and justified shared packages; monorepo. | PH-01; REQ-001/015, FEAT-001; TASK-001 | Clean clone install/build/test runs; dependency boundary check. | Implementation task, no code here |
 | TASK-003 | Establish principal, session and scoped grant foundation; API/admin. | PH-01; REQ-005/012, FEAT-001; TASK-001/002 | Executed allow/deny/expiry/self-escalation tests and audit. | Exact capability registry |
 | TASK-004 | Establish PostgreSQL/Payload migration and editorial base; admin/API. | PH-01; REQ-002/004/011, FEAT-001; TASK-001/002 | Migration and revisioned storage tests; no duplicate authority. | Physical schema approval |

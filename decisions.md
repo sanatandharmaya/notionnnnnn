@@ -17,8 +17,9 @@ Decision status applies to architecture documentation, not implementation eviden
 | DEC-011 | D3 separates payment, subscription, order, donation, ticket, template delivery, maintenance and status ownership. | Adopted logical reconciliation; K14 lines 3–65; provider evidence pending | No cross-owner state clone or payment-as-admission shortcut. |
 | DEC-012 | D4 private state, child/family, rights, erasure and restore rules. | Adopted logical reconciliation; K15 lines 3–65; policy/acceptance pending | Private projections and revocation replay require owner contracts. |
 | DEC-013 | D5 sourced domain truth, qualified review, current no-AI scope and versioned computation provenance. | Adopted logical reconciliation; K16 lines 3–65; corpus/runtime evidence pending | Keep cultural/source differences and computation outcomes explicitly scoped. |
-| DEC-014 | D6 separates architecture readiness from implementation, test, release and deployment evidence. | Adopted logical evidence standard; K17 lines 3–96; source tails pending | Never promote an authored acceptance case to PASS without executed evidence. |
+| DEC-014 | D6 separates architecture readiness from implementation, test, release and deployment evidence. | Adopted logical evidence standard; K17 lines 3–288 | Never promote an authored acceptance case to PASS without executed evidence. |
+| DEC-015 | P06 defines common logical schema/compatibility closure rules and reports programme logical closure. | Adopted source baseline; K18–K20. Its owner-by-owner claim is not independently verified against all child packs here. | Use versioned owner policies for variable values; keep external review and physical/runtime gates open. |
 
 Earlier eternalmu ADR-014 and ADR-022 are marked proposed in K11; their subject matter should not be mislabelled as approved merely because related later plans exist. See [conflicts](reports/conflict-register.md).
 
-The [D2–D6 brief](docs/architecture/logical-decisions-d2-d6.md) gives the reviewed decision details and coverage boundary without reproducing all source prose.
+The [D2–D6 brief](docs/architecture/logical-decisions-d2-d6.md) and [P06 logical closure](docs/architecture/p06-logical-closure.md) give the reviewed decision details and coverage boundaries without reproducing all source prose.

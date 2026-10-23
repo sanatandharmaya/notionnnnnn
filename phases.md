@@ -4,7 +4,7 @@ This roadmap adapts the source's approved R0–R6 release order to this reposito
 
 | Phase | Objective, prerequisites and scope | Deliverable / exit evidence | Risks |
 | --- | --- | --- | --- |
-| PH-01 (R0) | Foundation after source-to-code mapping; FEAT-001/008, REQ-001/002/005/014/015. | Reproducible monorepo, admin/website/API boundaries, PostgreSQL/Payload, identity/grants, audit, media, jobs, locales, CI; clean install/migrate/build/test/run and security cases. | Physical contracts and policy details must be reconciled. |
+| PH-01 (R0) | Foundation after source-to-code mapping; FEAT-001/008, REQ-001/002/005/014/015/017. | Reproducible monorepo, admin/website/API boundaries, PostgreSQL/Payload, identity/grants, audit, media, jobs, locales, CI; clean install/migrate/build/test/run and security cases. | Physical contracts and policy details must be reconciled. |
 | PH-02 (R1) | Editorial first slice after PH-01; FEAT-002/003, C01/C02. | Author → review → translate → rights check → publish → public read → withdraw works with audit and tests. | Source/rights and reviewer qualification. |
 | PH-03 (R2) | Broader knowledge and deterministic discovery after PH-02; FEAT-004, C03–C37 in reviewed batches. | Category owners mapped, authorized index/search, locale/SEO and content tests. | Category ID migration, cultural/source differences, computed engines. |
 | PH-04 (R3) | Authenticated devotee/private state after PH-01 and owner privacy model; FEAT-005. | W02–W04 and private progress/bookmarks/notes verified with denial and consent tests. | Family/child sharing and retention policy. |

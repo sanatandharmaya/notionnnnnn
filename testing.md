@@ -11,3 +11,7 @@ R0 exits only when a clean clone can install, migrate, build, test and run admin
 For this documentation branch, validate Markdown links, unique IDs, cross-file traceability and source coverage; report exceptions in [reports](reports/README.md).
 
 D6 requires every later test result to pin source snapshot, fixture revision, runner/command, environment, timestamp and observed outcome. UI verification covers rendered ready/loading/empty/unavailable/restricted/stale/error states where applicable, plus accessibility and locale behavior. Negative tests must establish prohibited effects are absent. Saved specification, implemented code, executed test, release readiness and deployment each need separate evidence. [K17 lines 42–96; decision brief](docs/architecture/logical-decisions-d2-d6.md).
+
+The 100 authored D2–D6 acceptance cases are grouped by owner and risk in the [acceptance-case map](docs/architecture/d2-d6-acceptance.md). They remain **not executed**; the map is a source index, not a passing test report.
+
+P06 adds 20 authored logical completeness cases (`P06.TST-001`–`020`) for field, relationship, lifecycle, contract and evidence classification. These also remain **not executed**. [P06 closure](docs/architecture/p06-logical-closure.md); [K18 lines 114–194](reports/key-sources.md).

@@ -15,6 +15,6 @@ The current [coverage report](reports/reading-coverage.md) shows this goal is **
 
 ## ChatGPT Goal text
 
-The following is ready to paste into ChatGPT Goals if that feature is available in your interface. This session has no goal-setting tool, so the goal has not been created there:
+The following text is a reusable summary for a Codex Goal. Goal activation and status belong to the current chat thread, not this repository file:
 
 > Keep pursuing the Eternal Sanskriti documentation task in `sanatandharmaya/notionnnnnn` until the three supplied Notion ZIP exports are semantically reconciled, source coverage and category audit reports are complete, all required Markdown documents have validated links and traceability, and the finished documentation branch is pushed with a draft pull request. Do not implement application code or claim unread content was reviewed. Resume from `reports/progress.md` and `reports/reading-coverage.md`; preserve approved decisions, unique requirements and unresolved conflicts. The full master prompt is in `docs/project-brief.md`.

@@ -1,6 +1,6 @@
 # D2–D6 logical decision brief
 
-This brief preserves the current logical reconciliations in [K13–K17](../../reports/key-sources.md). It is a selective synthesis of the decision, schema and lifecycle sections reviewed so far. Their acceptance-case and source-reference tails still need review, so this page is **not a physical schema or implementation-ready contract**. D6 records that M05 implementation evidence is paused; the user's current repository and documentation-only task supersede historical repository identities in D6.
+This brief preserves the current logical reconciliations in [K13–K17](../../reports/key-sources.md). It is a selective synthesis of their decision, schema and lifecycle sections. Their acceptance cases and source-reference tails have now been read and indexed in the [acceptance-case map](d2-d6-acceptance.md). This page is **not a physical schema or implementation-ready contract**. D6 records that M05 implementation evidence is paused; the user's current repository and documentation-only task supersede historical repository identities in D6.
 
 ## D2 — identity, wire contracts and routes
 
@@ -34,4 +34,4 @@ This brief preserves the current logical reconciliations in [K13–K17](../../re
 - Historical D6 repository-access claims concern other repositories and do not describe this user's selected `sanatandharmaya/notionnnnnn`. D6 explicitly separates completed architecture documentation from the future implementation-evidence gate. [K17 lines 3–38]
 - Implementation findings must pin repository/snapshot, inspected artifact, mapped requirement, behavior and test evidence. Access failure is `BLOCKED/UNKNOWN`, not proof of absent code. Authored acceptance cases remain `NOT EXECUTED`; physical schema, runtime behavior and UI states require actual evidence. Negative security/privacy tests and CI evidence are separate release gates. `SAVED VERIFIED`, `IMPLEMENTED`, `TESTED`, `RELEASE READY` and `DEPLOYED` are not interchangeable. [K17 lines 42–96]
 
-The per-source [file register](../../reports/source-files.csv) retains exact page IDs and archive paths. This brief does not copy the source's full logical type definitions or acceptance cases; review the owning page before designing a physical schema, endpoint or release test.
+The per-source [file register](../../reports/source-files.csv) retains exact page IDs and archive paths. This brief does not copy the source's full logical type definitions or acceptance cases. The acceptance map points to the source cases; review the owning page before designing a physical schema, endpoint or release test.

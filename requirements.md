@@ -1,0 +1,24 @@
+# Canonical requirements
+
+These IDs consolidate the currently reviewed core sources. They describe approved architecture or planned behavior, **not implemented code**. [Source keys](reports/key-sources.md) resolve page IDs and export paths. Full disposition of the 5,478 text entries remains pending in [reading coverage](reports/reading-coverage.md).
+
+| ID | Requirement and material conditions | Status | Sources |
+| --- | --- | --- | --- |
+| REQ-001 | One monorepo contains admin, public website and API boundaries; this repository and `apps/website` are the user's target naming. | User confirmed; planned | User brief; K06 lines 17–52; CON-001 |
+| REQ-002 | Each meaning/state has one owner; website and shared consumers use owner contracts rather than copies. | Approved logical rule | K02 lines 31–47; K04 §§3–4 |
+| REQ-003 | Preserve M01 S01–S41, M02 W01–W09, M03 C01–C37, M04 X01–X25 as distinct namespaces; current C04/C05/C06 are Wellness/Ayurveda/Yoga. | Approved taxonomy | K03 lines 5–229; K09 |
+| REQ-004 | Editorial publishing has revisioned draft, review, approval, publish, withdrawal and audit gates; translation, rights and safety review apply where required. | Approved logical behavior | K04 §11; K07 R1 |
+| REQ-005 | Human identity is admin/devotee/staff; server authorization is deny by default, checks current scoped grants and resource/field access, and grants do not arise from type or payment tier. | Approved logical behavior | K05 D1-01/02/12 |
+| REQ-006 | The website offers public discovery and reading through owner-backed projections; C01 and C02 form the first complete content slice. | Planned R1 | K04 §5; K07 R1 |
+| REQ-007 | Progress, bookmarks, notes and preferences are S02-owned private account state; family labels confer no cross-account authority, reset generations block stale offline resurrection, and no spiritual-worth score is inferred. | Approved logical boundary; planned R3 | K05 D1-11/13; K07 R3; K15 lines 11–41 |
+| REQ-008 | Search is deterministic and authorization-aware; no generative/vector search is in current production scope. | Approved current direction; planned R2 | K06 lines 122–128; K05 D1-11 |
+| REQ-009 | S07 subscription/entitlement, S08 payment/refund, S09 order and S11 donation retain separate owners. Money has amount/currency/precision policy; provider, business and settlement states remain distinct and callbacks idempotent. | Approved ownership; planned R4 | K04 §4; K07 R4; K14 lines 11–33 |
+| REQ-010 | S41 event registration/holds/tickets/check-in is separate from S08 payment and external streaming execution; free, platform-paid and external-ticket modes stay distinct. Payment success alone does not issue admission. | Planned R5 | K07 R5; K06 lines 110–120; K14 lines 43–53 |
+| REQ-011 | Canonical IDs are opaque owner-issued identities independent of labels/slugs/language. Source, edition, locator and quotation/translation/interpretation kind remain explicit; unknown provenance stays unknown and differing attributed traditions are preserved. | Approved logical model | K04 §9; K11 ADR-005/006; K13 lines 11–29; K16 lines 11–25 |
+| REQ-012 | Protect private fields, rights, consent, secrets and audit history across admin, API, website, search and events. No UI-only authorization. | Approved logical controls | K05 D1-02/05/13; K04 §23 |
+| REQ-013 | Per-language records attach to a stable parent; accessible and localized interfaces require release-scoped verification. | Approved model; execution pending | K04 §9; K06 lines 138–158 |
+| REQ-014 | Owner API operations define typed schemas, authorization, D2 error classes, stable IDs, audience-bound cursors, revision checks, request-bound idempotency and compatible outbox/inbox events. Native RSS/binary/stream formats remain native. | Approved logical contract; physical routes pending | K04 §10; K06 lines 67–82; K13 lines 31–49 |
+| REQ-015 | A release passes only with pinned source provenance, reproducible build/migration, executed tests, security/privacy and rendered UI evidence for its scope. Saved specification, implementation, testing, release readiness and deployment are distinct states. | Approved delivery rule | K08 lines 104–118; K04 §28; K17 lines 42–96 |
+| REQ-016 | Generic AI writing, translation, OCR/ASR, tagging, commentary, embeddings, semantic search and Ask-AI are excluded until separately approved by capability and domain. | Approved current exclusion | K04 §11; K11 ADR-010; K16 lines 27–37; CON-009 |
+
+Unique rules from detailed module packs are not yet asserted as fully consolidated. The [audit reports](reports/README.md) track that work.

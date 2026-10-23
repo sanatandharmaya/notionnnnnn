@@ -14,14 +14,14 @@ Updated 2026-10-23 UTC. **Status: substantial provisional documentation, detaile
 - Reviewed three P06 pages (K18–K20), including 20 authored, unexecuted acceptance cases and the S01–S41/W01–W09/C01–C37/X01–X25 closure matrix. Documented P06's source-level logical completion claim and the separate unverified physical/runtime and child-pack gates in the [P06 brief](../docs/architecture/p06-logical-closure.md).
 - Drafted the 19 requested root Markdown documents plus `goal.md`, 37 category notes and feature indexes, 37 category audit notes and global audit reports. These explicitly state their current coverage limits.
 - Tested all three public Notion site URLs; each was inaccessible from the web tool. The three matching ZIP exports are available in local Downloads, so exported-source analysis can continue. Live comments, edits and unexported descendants remain unverified.
-- The earlier documentation branch was merged into `main` as PR #1 before this checkpoint. A new `docs/eternal-sanskriti-reconciliation` branch carries the continuing audit in local commit `065d5ab`; no application code has been created. The GitHub connector created the same branch remotely at `main`, but the new commit is not published: CLI push received a 403 for the configured `sanskritieternal` account.
+- The earlier documentation branch was merged into `main` as PR #1 before this checkpoint. A new `docs/eternal-sanskriti-reconciliation` branch carries the continuing audit. CLI push received a 403 for the configured `sanskritieternal` account, but the GitHub connector published the documentation checkpoint to the remote branch. No application code has been created.
 
 ## Remaining
 
 - Semantically review the remaining detailed and legacy pages, including the Sanatan Platform export and current M01/M02/M03/M04 packs. Line scanning alone cannot establish requirement disposition.
 - Reconcile each category's feature index against child requirements, acceptance cases, workflows and contracts. Expand category duplicate/conflict analysis and map legacy IDs by meaning, not number.
 - Reconcile P06's programme-level closure claim and source-specific policy gates against the current owner packs, then update requirements/features/tasks and rerun a full traceability and consistency audit. The D2–D6 acceptance/source tails have been read; their linked owner packs remain to be reviewed independently.
-- Complete detailed semantic review and reconcile remaining category and legacy evidence before declaring implementation readiness. The earlier PR text in [draft PR](draft-pr.md) is a historical record; the continuing branch needs its local commit published and its own draft PR. No application installation or runtime tests apply.
+- Complete detailed semantic review and reconcile remaining category and legacy evidence before declaring implementation readiness. The earlier PR text in [draft PR](draft-pr.md) is a historical record; the continuing branch needs its own draft PR. No application installation or runtime tests apply.
 
 ## Next action
 
